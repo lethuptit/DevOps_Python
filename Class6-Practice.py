@@ -81,7 +81,7 @@ def invert(s):
 
 
 #7)	Propose a modular solution to the problem of determining if a number is prime.
-#algorithm IsPrime(int: n)
+#algorithm isPrime(int: n)
 #   for each i in (0, n-1)
 #       if n mod i ==0
 #            return false
