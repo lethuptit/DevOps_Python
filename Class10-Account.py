@@ -17,8 +17,7 @@ class Person:
 
     def __init__(self, name='', sur='', phone='') -> None:
         self._name=name
-        self._surname=sur
-        
+        self._surname=sur        
         self._phone=phone
 
     def isValidPhone(self):

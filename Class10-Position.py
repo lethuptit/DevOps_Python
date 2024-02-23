@@ -49,16 +49,3 @@ class Position:
         self.x=X
         self.y=Y
 
-#2 - Create a Person class, with attributes name, surname and phone. Check that
-# the phone only accepts 9 digits. Create an Account class, with accountNumber,
-# balance and owner attributes. The owner is a Person. 
-#Create a constructor with parameters and another without parameters, access methods
-# and toString for these classes.
-# Check that the balance of the account must not be less than 0. Create a method
-# called transaction that enters as parameters quantity and transactionType;
-# Transaction type is "withdrawal" or "deposit". If it is a withdrawal, the amount
-# is subtracted from the balance, and if it is deposit the amount is increased to
-# the balance. The transaction method must print the transaction type and the new
-# balance. Create in a class called Main, two accounts belonging to two different
-# people and make a deposit and a withdrawal in each account. Print the values ​​of
-# people, owners and transactions.
